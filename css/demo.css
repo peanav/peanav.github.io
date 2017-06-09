@@ -1,3 +1,111 @@
 #ri-grid {
   transform: translateY(-100px);
+
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hackday {
+  width: 80%;
+}
+
+.oldschool {
+  width: 80%;
+  margin-bottom: 400px;
+}
+
+.animated {
+  animation-fill-mode: both;
+}
+
+@keyframes twister {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  2% {
+    transform: rotateZ(360deg);
+  }
+  5% {
+    transform: rotateZ(720deg);
+  }
+  7% {
+    transform: rotateZ(1080deg);
+  }
+  10% {
+    transform: rotateZ(1440deg);
+  }
+  12% {
+    transform: rotateZ(1800deg);
+  }
+  15% {
+    transform: rotateZ(2160deg);
+  }
+  17% {
+    transform: rotateZ(2520deg);
+  }
+  30% {
+    transform: rotateZ(0deg);
+  }
+  100% {
+    transform: rotateZ(0deg);
+  }
+}
+
+.twister2 {
+  animation-name: twister2;
+  animation-duration: 20s;
+  z-index: 1000;
+  animation-iteration-count: infinite;
+  animation-delay: 9s;
+}
+
+@keyframes twister2 {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  2% {
+    transform: rotateZ(-360deg);
+  }
+  5% {
+    transform: rotateZ(-720deg);
+  }
+  7% {
+    transform: rotateZ(-1080deg);
+  }
+  10% {
+    transform: rotateZ(-1440deg);
+  }
+  12% {
+    transform: rotateZ(-1800deg);
+  }
+  15% {
+    transform: rotateZ(-2160deg);
+  }
+  17% {
+    transform: rotateZ(-2520deg);
+  }
+  30% {
+    transform: rotateZ(0deg);
+  }
+  100% {
+    transform: rotateZ(0deg);
+  }
+}
+
+.twister {
+  animation-name: twister;
+  animation-duration: 20s;
+  z-index: 1000;
+  animation-iteration-count: infinite;
 }
