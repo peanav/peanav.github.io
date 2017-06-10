@@ -14,8 +14,8 @@
       <section class="main">
 
         <div id="ri-grid" class="ri-grid ri-grid-size-3">
-          <ul
-            <li><a href="#"><img src="images/medium/1.jpg"/></a></li>
+          <ul>
+            <li><a href="#"><img src="images/movies/1.jpg"/></a></li>
             <li><a href="#"><img src="images/medium/2.jpg"/></a></li>
             <li><a href="#"><img src="images/medium/3.jpg"/></a></li>
             <li><a href="#"><img src="images/medium/4.jpg"/></a></li>
@@ -72,10 +72,8 @@
           </ul>
         </div>
         <div class="overlay">
-          <!--<img src="images/oldschool.png" class="oldschool animated twister" />-->
-          <img src="images/sticker.png" class="oldschool animated twister" />
-          <img src="images/sticker.png" class="oldschool animated twister2" />
-          <img src="images/sticker.png" class="hackday animated twister3" />
+          <img src="images/oldschool.png" class="oldschool animated twister2" />
+          <img src="images/hackday.png" class="hackday animated twister" />
         </div>
       </section>
     </div>
@@ -84,29 +82,9 @@
     <script type="text/javascript"> 
 $(function() {
   $('#ri-grid').gridrotator({
-    rows : 7,
+    rows : 6,
     columns : 3,
     maxStep : 3,
-    w1024 : {
-      rows : 7,
-      columns : 3
-    },
-    w768 : {
-      rows : 7,
-      columns : 3
-    },
-    w480 : {
-      rows : 7,
-      columns : 3
-    },
-    w320 : {
-      rows : 7,
-      columns : 3
-    },
-    w240 : {
-      rows : 7,
-      columns : 3
-    },
     interval : 5000,
   });
 });

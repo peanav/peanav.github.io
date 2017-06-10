@@ -9,7 +9,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0,0,0,0.7);
+  background: rgba(255,255,255,0.7);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -22,7 +22,7 @@
 
 .oldschool {
   width: 80%;
-  margin-bottom: 30%;
+  margin-bottom: 20%;
 }
 
 .animated {
@@ -67,7 +67,7 @@
   animation-duration: 20s;
   z-index: 1000;
   animation-iteration-count: infinite;
-  animation-delay: 9s;
+  animation-delay: 7s;
 }
 
 @keyframes twister2 {
@@ -108,4 +108,12 @@
   animation-duration: 20s;
   z-index: 1000;
   animation-iteration-count: infinite;
+}
+
+.twister3 {
+  animation-name: twister;
+  animation-duration: 20s;
+  z-index: 1000;
+  animation-iteration-count: infinite;
+  animation-delay: 13s;
 }
