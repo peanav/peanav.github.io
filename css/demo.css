@@ -49,7 +49,20 @@ body {
 }
 
 .roxanne .hackday {
-  width: 50%;
+  width: auto;
+}
+
+.roxanne .move {
+  transition: all 5s ease;
+}
+
+.ri-grid ul li {
+  background: #99ccee;
+}
+
+.roxanne a {
+  background-color: #99ccee !important;
+  background-blend-mode: soft-light;
 }
 
 @keyframes twister {
