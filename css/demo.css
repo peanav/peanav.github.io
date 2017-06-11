@@ -19,10 +19,6 @@ body {
   flex-direction: column;
 }
 
-.movies .overlay {
-  background: rgba(0,0,0,0.1);
-}
-
 .hackday {
   width: 80%;
 }
@@ -42,9 +38,6 @@ body {
 
 .roxanne #ri-grid {
   transform: translate(-50px, -100px);
-}
-
-.roxanne .overlay {
 }
 
 .roxanne .hackday {
