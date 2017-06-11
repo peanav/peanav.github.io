@@ -36,19 +36,31 @@ body {
   width: 2000px;
 }
 
-.roxanne #ri-grid {
+.roxanne-small body {
+  width: 1560px;
+}
+
+.roxanne #ri-grid{
   transform: translate(-50px, -100px);
+}
+
+.roxanne-small body {
+  transform: translate(-50px, -50px);
 }
 
 .roxanne .hackday {
   width: auto;
 }
 
-.roxanne .move, .roxanne-vert .move {
+.roxanne-small .hackday {
+  width: 50%;
+}
+
+.roxanne .move, .roxanne-vert .move, .roxanne-small .move {
   transition: all 5s ease;
 }
 
-.roxanne-vert .move {
+.roxanne-vert .move, .roxanne-small .move {
   display: flex;
   justify-content: center;
   align-items: center;
