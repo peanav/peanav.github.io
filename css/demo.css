@@ -44,9 +44,16 @@ body {
   width: auto;
 }
 
-.roxanne .move {
+.roxanne .move, .roxanne-vert .move {
   transition: all 5s ease;
 }
+
+.roxanne-vert .move {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 
 .games .overlay {
   transform: rotate(-90deg) translateY(200px);
@@ -793,4 +800,47 @@ a {
   animation-duration: 30s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
+}
+
+@keyframes twister4 {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  10% {
+    transform: rotateZ(360deg);
+  }
+  20% {
+    transform: rotateZ(720deg);
+  }
+  30% {
+    transform: rotateZ(1080deg);
+  }
+  40% {
+    transform: rotateZ(1440deg);
+  }
+  50% {
+    transform: rotateZ(1800deg);
+  }
+  60% {
+    transform: rotateZ(2160deg);
+  }
+  70% {
+    transform: rotateZ(2520deg);
+  }
+  80% {
+    transform: rotateZ(2880deg);
+  }
+  90% {
+    transform: rotateZ(3240deg);
+  }
+  100% {
+    transform: rotateZ(0deg);
+  }
+}
+
+.twister4 {
+  animation-name: twister4;
+  animation-duration: 90s;
+  z-index: 1000;
+  animation-iteration-count: infinite;
 }
